@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/langhansma/Documents/KiCad/Projects/KNX_EnvironmentSensor/KNX_EnvironmentSensor.kicad_sch</source>
+    <date/>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>KNX_EnvironmentSensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c7a668d-66e6-454d-914b-e1f6cb60f119</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Prog_LED</value>
+      <footprint>LED_THT:LED_D3.0mm_FlatTop</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf517ec5-c6e9-466b-a3b0-4324ec09a91e</tstamps>
+    </comp>
+    <comp ref="GN1">
+      <value>OpenKNX_BCU</value>
+      <footprint>OpenKNX:NanoBCU_Soldered</footprint>
+      <libsource lib="OpenKNX_Symbol" part="OpenKNX_BCU" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06f52cb7-c85d-4799-8ae5-7ac35412efde</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Reed</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58486ccb-cd80-46c4-a850-420324b5538b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_SHT3x</value>
+      <footprint>Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c010c67-b36d-4830-86ea-91f8cb8d51f7</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_KNX</value>
+      <footprint>OpenKNX:KNX_Connector</footprint>
+      <libsource lib="OpenKNX_Symbol" part="Conn_KNX" description="KNX connector 2 pin 01x02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="KNX connector 2 pin 01x02"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85cf965c-192b-4288-9433-e5163d4ecf23</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75093e95-8bd0-40a7-9aef-4fe08ea3fccc</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0300fe7b-45cc-42b6-9ac7-4dcf9e0e2fbb</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f57017f-ac7b-420d-9801-f36f228ecfe9</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeaeb00f-5250-45a8-8443-a8bd4ba7b991</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10686ec5-7e3c-4a9b-b2dc-09b5ddc69818</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Prod_Button</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9776e3d6-ca33-448d-9854-511d543c5ccf</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>24LC256</value>
+      <footprint>24LC256_E_SN-2:SOIC127P599X175-8N</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf</datasheet>
+      <libsource lib="Memory_EEPROM" part="24LC256" description="I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <property name="ki_description" value="I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
+      <property name="ki_keywords" value="I2C Serial EEPROM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e87efb6d-cbe5-40ad-a1ad-16193cd6d44b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Seeed Studio XIAO SAMD21</value>
+      <footprint>Seeeduino XIAO KICAD 2:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM</footprint>
+      <libsource lib="Seeed_Studio_XIAO_Series" part="Seeed Studio XIAO SAMD21" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KNX_EnvironmentSensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e059f34d-72da-4a1d-84a5-a26f075c9e9f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="24LC256">
+      <description>I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>DFN*3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24LC256</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenKNX_Symbol" part="Conn_KNX">
+      <description>KNX connector 2 pin 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_KNX</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenKNX_Symbol" part="OpenKNX_BCU">
+      <footprints>
+        <fp>BCU</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">GN</field>
+        <field name="Value">OpenKNX_BCU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="KNX+" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="SAVE" type="output"/>
+        <pin num="4" name="Rx" type="input"/>
+        <pin num="5" name="Tx" type="output"/>
+        <pin num="6" name="3V3" type="power_out"/>
+        <pin num="7" name="Vcc2" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Seeed_Studio_XIAO_Series" part="Seeed Studio XIAO SAMD21">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Seeed Studio XIAO SAMD21</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA02_A0_D0" type="unspecified"/>
+        <pin num="2" name="PA4_A1_D1" type="unspecified"/>
+        <pin num="3" name="PA10_A2_D2" type="unspecified"/>
+        <pin num="4" name="PA11_A3_D3" type="unspecified"/>
+        <pin num="5" name="PA8_A4_D4_SDA" type="unspecified"/>
+        <pin num="6" name="PA9_A5_D5_SCL" type="unspecified"/>
+        <pin num="7" name="PB08_A6_D6_TX" type="unspecified"/>
+        <pin num="8" name="PB09_A7_D7_RX" type="unspecified"/>
+        <pin num="9" name="PA7_A8_D8_SCK" type="unspecified"/>
+        <pin num="10" name="PA5_A9_D9_MISO" type="unspecified"/>
+        <pin num="11" name="PA6_A10_D10_MOSI" type="unspecified"/>
+        <pin num="12" name="3V3" type="unspecified"/>
+        <pin num="13" name="GND" type="unspecified"/>
+        <pin num="14" name="5V" type="unspecified"/>
+        <pin num="15" name="5V" type="input"/>
+        <pin num="16" name="GND" type="input"/>
+        <pin num="17" name="PA31_SWDIO" type="input"/>
+        <pin num="18" name="PA30_SWCLK" type="input"/>
+        <pin num="19" name="RESET" type="input"/>
+        <pin num="20" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Memory_EEPROM.kicad_sym</uri>
+    </library>
+    <library logical="OpenKNX_Symbol">
+      <uri>/Users/langhansma/Documents/KiCad/ThirdParty/OpenKNX-KiCad-Lib-main/OpenKNX_Symbol.kicad_sym</uri>
+    </library>
+    <library logical="Seeed_Studio_XIAO_Series">
+      <uri>/Users/langhansma/Documents/KiCad/ThirdParty/SeeeduinoXIAOKICAD2/Seeed_Studio_XIAO_Series.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="GN1" pin="6" pinfunction="3V3" pintype="power_out"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="12" pinfunction="3V3" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/SCL">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="PA9_A5_D5_SCL" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/SDA">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="PA8_A4_D4_SDA" pintype="unspecified"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="GN1" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="WP" pintype="input"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="5" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(GN1-KNX+)">
+      <node ref="GN1" pin="1" pinfunction="KNX+" pintype="bidirectional"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(GN1-Rx)">
+      <node ref="GN1" pin="4" pinfunction="Rx" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="PB08_A6_D6_TX" pintype="unspecified"/>
+    </net>
+    <net code="8" name="Net-(GN1-Tx)">
+      <node ref="GN1" pin="5" pinfunction="Tx" pintype="output"/>
+      <node ref="U3" pin="8" pinfunction="PB09_A7_D7_RX" pintype="unspecified"/>
+    </net>
+    <net code="9" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="PA4_A1_D1" pintype="unspecified"/>
+    </net>
+    <net code="10" name="Net-(U3-PA10_A2_D2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="PA10_A2_D2" pintype="unspecified"/>
+    </net>
+    <net code="11" name="Net-(U3-PA11_A3_D3)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="PA11_A3_D3" pintype="unspecified"/>
+    </net>
+    <net code="12" name="unconnected-(GN1-SAVE-Pad3)">
+      <node ref="GN1" pin="3" pinfunction="SAVE" pintype="output+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(GN1-Vcc2-Pad7)">
+      <node ref="GN1" pin="7" pinfunction="Vcc2" pintype="power_out+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U3-5V-Pad14)">
+      <node ref="U3" pin="14" pinfunction="5V" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U3-5V-Pad15)">
+      <node ref="U3" pin="15" pinfunction="5V" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U3-GND-Pad16)">
+      <node ref="U3" pin="16" pinfunction="GND" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U3-GND-Pad20)">
+      <node ref="U3" pin="20" pinfunction="GND" pintype="input+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U3-PA02_A0_D0-Pad1)">
+      <node ref="U3" pin="1" pinfunction="PA02_A0_D0" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U3-PA5_A9_D9_MISO-Pad10)">
+      <node ref="U3" pin="10" pinfunction="PA5_A9_D9_MISO" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U3-PA6_A10_D10_MOSI-Pad11)">
+      <node ref="U3" pin="11" pinfunction="PA6_A10_D10_MOSI" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U3-PA7_A8_D8_SCK-Pad9)">
+      <node ref="U3" pin="9" pinfunction="PA7_A8_D8_SCK" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U3-PA30_SWCLK-Pad18)">
+      <node ref="U3" pin="18" pinfunction="PA30_SWCLK" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U3-PA31_SWDIO-Pad17)">
+      <node ref="U3" pin="17" pinfunction="PA31_SWDIO" pintype="input+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U3-RESET-Pad19)">
+      <node ref="U3" pin="19" pinfunction="RESET" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
